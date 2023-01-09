@@ -2,8 +2,15 @@
 AWSLambdaAPI
 RateADrafteeAPI
 
-# Credential files
+# Flask files
 flask-server/credentials
+flask-server/__pycache__
+flask-server/env
+flask-server/Projects
+
+# React files
+client/node_modules
+client/public
 
 # Misc files
 ./draft_picks.csv
