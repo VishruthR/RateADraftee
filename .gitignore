@@ -12,7 +12,6 @@ flask-server/Projects
 client/node_modules
 client/public
 client/package-lock.json
-client/package.json
 client/yarn.lock
 
 # Misc files
