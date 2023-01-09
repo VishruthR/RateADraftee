@@ -13,4 +13,4 @@ client/node_modules
 client/public
 
 # Misc files
-./draft_picks.csv
+draft_picks.csv
