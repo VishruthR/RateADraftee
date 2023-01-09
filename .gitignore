@@ -1,0 +1,9 @@
+# Model Deployment APIs
+AWSLambdaAPI
+RateADrafteeAPI
+
+# Credential files
+flask-server/credentials
+
+# Misc files
+./draft_picks.csv
