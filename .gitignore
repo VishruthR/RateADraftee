@@ -10,7 +10,6 @@ flask-server/Projects
 
 # React files
 client/node_modules
-client/public
 client/package-lock.json
 client/yarn.lock
 
