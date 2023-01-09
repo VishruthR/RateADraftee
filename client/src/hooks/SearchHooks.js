@@ -6,7 +6,7 @@ export const useSearchSuggestions = (textInput) => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  const endpoint = "http://localhost:5000/search/" + textInput;
+  const endpoint = "https://vishraj248.pythonanywhere.com/search/" + textInput;
 
   useEffect(() => {
     axios
@@ -29,7 +29,7 @@ export const usePlayerGetRating = (playerId) => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  const endpoint = "http://localhost:5000/player/" + playerId;
+  const endpoint = "https://vishraj248.pythonanywhere.com/player/" + playerId;
 
   useEffect(() => {
     axios
