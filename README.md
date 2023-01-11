@@ -1,5 +1,6 @@
 # Welcome to RateADraftee
 
+Warning: The Twitter API is not working right now so the website does not work, this error will be removed once the site is running again.
 [Live site](https://rate-a-draftee.vercel.app/)
 
 ### What is it?
