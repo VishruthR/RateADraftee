@@ -15,6 +15,4 @@ Ever since I watched an NFL bit hits compilation in the 3rd grade I've been fasc
 
 RateADraftee is built with a React/NodeJS frontend and a Flask backend. First it scrapes twitter for tweets about the player you searched for. Specifically it finds 100 tweets about that player from around the time they were drafted. Next it sends them to a BeRT model that was fine-tuned on twitter sentiment analysis and then further fine-tuned on tweets written about NFL players that I labelled. Finally, it calculates a grade based on the sentiment ratings of all these tweets.
 
-Click here for more information on the development process
-
 
