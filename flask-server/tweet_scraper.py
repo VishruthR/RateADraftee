@@ -12,7 +12,7 @@ def find_tweets(player_name, season):
     query = "\"{name}\" lang:en until:{year}-05-31 since:{year}-04-01"
     tweets = []
 
-    for tweet in sntwitter.TwitterSearchScraper( query.format( name=player_name, year=season ) ).get_items():
+    for tweet in sntwitter.TwitterSearchScraper( query.format( name=player_name, year=season ), top=True ).get_items():
         if tweet.user.username in blacklist:
             print( 'check' )
             continue
